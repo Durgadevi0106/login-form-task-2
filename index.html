@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./loginsuccess.html" method="get">
+        <fieldset>
+           <legend><b>Enter details login</b></legend>
+            <label for="1">Username:</label>
+        <input type="text" name="Username" id="1" placeholder="Username" pattern="[a-zA-Z\d]{6,16}" title="Username length should between min 8 and max 8 " required><br>
+        <label for="2">password:</label>
+        <input type="password" name="password" id="2" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-z])(?=.!@#$%^&*_+-=₹).{8,16}" title=" password must be contin atleast one special symbol,one numeric value(0-9),one uppercase(A-Z) and lower case (a-z)also and length must be between min 8 and max 16." required><br>
+        <pre>
+               <button><a href="./loginsuccess.html" target="_blank">login</a></button><br>
+        <button><a href="./forgot.html" target="_blank" id="34">Forgot</a></button>    <button> <a href="./register.html" target="_blank" >Register</a></button>
+        </pre>
+        </fieldset>
+    </form>
+</body>
+</html>
